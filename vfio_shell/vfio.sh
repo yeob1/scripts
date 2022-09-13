@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #arg1 : vfio-pci-bind.sh path(ex: /root/vfio-pci-bind.sh)
-#arg2 : VenderID:ProductID
+#arg2 : VenderID:DeviceID
 #arg3 : PCI Address
 
 #exec example : ./vfio.sh /root/vfio-pci-bind.sh 10de:1e78 0000:af:00.0 
