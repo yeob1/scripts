@@ -1,3 +1,8 @@
+#!/bin/bash
+
+#arg1 : VenderID:ProductID
+#arg2 : PCI Address
+
 while [ true ]
 do
   cmd="/root/vfio-pci-bind.sh $1 $2"
